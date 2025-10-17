@@ -1,0 +1,194 @@
+.scroll-to-top {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* HEADER styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px;
+}
+
+.nav-item {
+  padding: 10px 40px;
+  background-color: #d7ebab;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.nav-item:hover {
+  transform: translateY(-1px);
+}
+
+/* PHOTOS styles */
+.photos {
+  display: flex;
+  margin-top: 60px;
+  height: 350px;
+  background-color: #eaf4d3;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+.photos-content1 {
+  width: 70%;
+  height: 100%;
+  padding: 10px;
+}
+
+.photo-container1 {
+  width: 100px;
+  height: 130px;
+}
+
+#photoc1-1 {
+  float: left;
+}
+
+#photoc1-2 {
+  float: right;
+}
+
+.photos-content2 {
+  width: 30%;
+  position: relative;
+  display: flex;
+  border-left: 1px solid #4e5b0c;
+}
+
+.photo-container2 {
+  position: absolute;
+  width: 150px;
+  height: 180px;
+}
+
+.photo-container img {
+  border-radius: 12px;
+}
+
+#photoc2-1 {
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  z-index: 10;
+}
+
+#photoc2-2 {
+  position: absolute;
+  top: 80px;
+  left: 150px;
+  z-index: 5;
+}
+
+#photoc2-3 {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+/* SIGN UP styles */
+#sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #eaf4d3;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  padding: 40px 50px 10px 50px;
+  margin-bottom: 50px;
+}
+
+.sign-up-block {
+  display: flex;
+  gap: 40px;
+}
+
+.sign-up-block1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box label {
+  font-size: 12px;
+}
+
+.radio-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-box label {
+  font-size: 12px;
+}
+
+.sign-up-block2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sign-up-buttons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* SIGN UP styles */
+.sign-in-form {
+  width: 500px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 50px auto;
+  background-color: #eaf4d3;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  padding: 40px 50px 10px 50px;
+}
+
+/* FEEDBACK styles */
+.feedback {
+  display: flex;
+  gap: 30px;
+  background-color: #eaf4d3;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  padding: 40px 50px 10px 50px;
+}
+
+.feedback-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 30%;
+}
